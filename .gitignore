@@ -1,0 +1,40 @@
+# --- Chỉ giữ lại file code Python (.py) ---
+# Bỏ qua tất cả mặc định
+*
+
+# Nhưng vẫn giữ lại các file .py (code)
+!*.py
+
+# Giữ lại file .gitignore
+!.gitignore
+
+# --- Bỏ qua các thư mục và file không cần thiết ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.zip
+*.rar
+*.7z
+
+# Bỏ qua các môi trường ảo
+env/
+venv/
+.virtualenv/
+virtual-environment/
+
+# Bỏ qua các thư mục chứa dữ liệu hoặc video lớn
+0_source/
+1_SOURCE/
+2_FINAL/
+3_Training/
+4_Music/
+5_Tool_Edit/Function_programs/
+5_Tool_Edit/MoveFile/
+5_Tool_Edit/Tiktok_pipeline/
+6_TaiKhoan/
+filter/
+filter_download_links/
