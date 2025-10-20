@@ -4,6 +4,7 @@
 
 # Nhưng vẫn giữ lại các file .py (code)
 !*.py
+!*.bat
 
 # Giữ lại file .gitignore
 !.gitignore
